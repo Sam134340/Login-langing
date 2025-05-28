@@ -1,0 +1,135 @@
+@import 
+url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html{
+    font-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url("https://i.pinimg.com/1200x/81/ee/00/81ee0076a778b3c0c15893f25dc9a96b.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    margin-top: 2.5rem;
+    width: 27rem;
+    background: transparent;
+    border: 0.125rem solid rgb(0, 0, 0);
+    backdrop-filter: blur(0.3rem);
+    box-shadow: 0 0 0.625rem rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 1.25rem 1.87rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 3.125rem;
+    position: relative;
+    margin: 1.875rem 0;
+}
+
+.wrapper h1{
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 2.9rem 1.25rem 1.25rem;
+    background: transparent;
+    outline: none;
+    border: 0.125rem solid rgba(255, 255, 255, 0.2rem);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.input-box input::placeholder{
+    color: black;
+}
+
+.input-box i{
+    position: absolute;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin: 0.9375 0 0.9375;
+}
+
+.remember-forgot label input{
+    accent-color: black;
+    margin-right: 0.1875rem;
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 2.9rem;
+    border: none;
+    outline: none;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 0.7rem rgba(255, 255, 255, 0.2rem);
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(114, 196, 250);
+}
+
+.wrapper .register-link{
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.wrapper .register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.wrapper .register-link p a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn:hover{
+    background-color: rgb(94, 182, 185);
+}
+
+.wrapper .btn:active{
+    background-color: rgb(31, 109, 109);
+    transform: scale(0.98);
+}
